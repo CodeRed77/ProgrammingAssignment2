@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Programming Assignment #2 for R Programming
+## The purpose of this script is to calculate the inverse of a matrix. 
+## However, if the calculation has already been performed, it will retrieve the value from the cache
 
-## Write a short comment describing this function
+## This function will create a list which has information about retrieving the matrix.
+
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -17,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Computes, caches, and returns the inverse matrix
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
